@@ -1,7 +1,6 @@
 game.StarterGui:SetCore("SendNotification", {
     Title = "Vexora Hub",
     Text = "Success Loading",
-    Icon = "https://i.pinimg.com/736x/ef/41/42/ef414269cb6ef3331491408ec72e71c2.jpg",
     Duration = 5,
     Callback = function()
     end
@@ -9,13 +8,11 @@ game.StarterGui:SetCore("SendNotification", {
 game.StarterGui:SetCore("SendNotification", {
     Title = "Vexora Hub",
     Text = "Keybind: RightShift",
-    Icon = "https://i.pinimg.com/736x/ef/41/42/ef414269cb6ef3331491408ec72e71c2.jpg",
     Duration = 5,
     Callback = function()
     end
 })
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Image = "https://i.pinimg.com/736x/ef/41/42/ef414269cb6ef3331491408ec72e71c2.jpg"
 getgenv().ToggleUI = "RightShift"
 
 task.spawn(function()
